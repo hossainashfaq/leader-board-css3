@@ -8,12 +8,16 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
 }
 .container{
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 .section-title{
     color: #562EFF;
