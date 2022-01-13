@@ -13,7 +13,7 @@ main{
 .container{
     background-color: #FFFFFF;
     width: 870px;
-    
+    padding: 30px;
 }
 .section-title{
     color: #562EFF;
@@ -23,6 +23,7 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 .player{
     display: flex;
@@ -31,5 +32,8 @@ main{
 .player img{
     width: 56px;
     height: 56px;
+}
+.player-name{
+    margin-left: 15px;
 }
 
